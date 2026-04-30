@@ -1,4 +1,16 @@
 
+<style type="text/css">
+body .main-container {
+max-width: 1500px !important;
+width: 1500px !important;
+}
+body {
+max-width: 1500px !important;
+margin-left: auto;
+margin-right: auto;
+}
+</style>
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # discovr: Resources for Discovering Statistics Using R and RStudio (Field, 2026)
