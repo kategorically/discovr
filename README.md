@@ -89,51 +89,74 @@ starting the interactive tutorials.
 
 ### List of tutorials
 
-- `discovr_01`: Introducing
+`discovr_01`:  
+Introducing
   <img src="./data-raw/images/r_logo.png" width="18">, RStudio and
   Quarto: What is R, tour of RStudio and Quarto, getting help,
-  installing packages, coding style and loading packages.
-- `discovr_02`: Code fundamentals: Functions and objects, packages and
+  installing packages, coding style and loading packages
+
+`discovr_02`:  
+Code fundamentals: Functions and objects, packages and
   functions, style, data types.
-- `discovr_03`: The tidyverse: tidy and messy data, tibbles, adding and
+
+`discovr_03`:  
+The tidyverse: tidy and messy data, tibbles, adding and
   selecting variables, filtering cases.
-- `discovr_04`: Summarizing data: mean, median, variance, standard
+
+`discovr_04`:  
+Summarizing data: mean, median, variance, standard
   deviation, interquartile range, normal and bootstrap confidence
   intervals, tables of summary statistics. Includes an interactive app
   demonstrating what a confidence interval is.
-- `discovr_05`: Visualizing data. The ggplot2 package, boxplots,
+
+`discovr_05`:  
+Visualizing data. The ggplot2 package, boxplots,
   plotting means, violin plots, scatterplots, grouping by colour,
   grouping using facets, adjusting scales, adjusting positions.”
-- `discovr_06`: The beast of bias. Restructuring data from messy to tidy
+
+`discovr_06`:  
+The beast of bias. Restructuring data from messy to tidy
   format (and back). Spotting outliers using histograms and boxplots.
   Calculating *z*-scores (standardizing scores). Writing your own
   function. Using *z*-scores to detect outliers. Q-Q plots. Calculating
   skewness, kurtosis and the number of valid cases. Grouping summary
   statistics by multiple categorical/grouping variables.
-- `discovr_07`: Associations. Plotting data with GGally. Pearson’s *r*,
+
+`discovr_07`:  
+Associations. Plotting data with GGally. Pearson’s *r*,
   Spearman’s Rho, Kendall’s tau, robust correlations. Using `display()`
   to round output more flexibly.
-- `discovr_08`: The general linear model (GLM). Visualizing the data,
+
+`discovr_08`:  
+The general linear model (GLM). Visualizing the data,
   fitting GLMs with one and two predictors. Viewing model parameters
   with broom, model parameters, standard errors, confidence intervals,
   fit statistics, significance.
-- `discovr_09`: Categorical predictors with two categories (comparing
+
+`discovr_09`:  
+Categorical predictors with two categories (comparing
   two means). Comparing two independent means, comparing two related
   means, effect sizes, robust comparisons of means (independent and
   related), Bayes factors and estimation (independent and related
   means).
-- `discovr_10`: Moderation and mediation. Centring variables (grand mean
+
+`discovr_10`:  
+Moderation and mediation. Centring variables (grand mean
   centring), specifying interaction terms, moderation analysis, simple
   slopes analysis, Johnson-Neyman intervals, mediation with one
   predictor, direct and indirect effects, mediation using `lavaan`.
-- `discovr_11`: Comparing several means. Essentially ‘One-way
+
+`discovr_11`:  
+Comparing several means. Essentially ‘One-way
   independent ANOVA’ but taught using a general linear model framework.
   Covers setting contrasts (dummy coding, contrast coding, and linear
   and quadratic trends), the *F*-statistic and Welch’s robust *F*,
   robust parameter estimation, heteroscedasticity-consistent tests of
   parameters, robust tests of means based on trimmed data, *post hoc*
   tests.
-- `discovr_12`: Linear models involving continuous and categorical
+
+`discovr_12`:  
+Linear models involving continuous and categorical
   predictors. The first example looks at the case o moderation
   (non-paralell slopes models), whereas the second explores comparing
   means adjusted for other variables (a parallel slopes model or
@@ -142,25 +165,34 @@ starting the interactive tutorials.
   based on Type III sums of squares and diagnostic plots, and
   interpretting the model using heteroscedasticity-consistent tests of
   parameters and *post hoc* tests.
-- `discovr_13`: Factorial designs. Fitting models for two-way factorial
+
+`discovr_13`:  
+Factorial designs. Fitting models for two-way factorial
   designs (independent measures) using `lm()`. This tutorial builds on
   previous ones to show how models can be fit with two categorical
   predictors to look at the interaction between them. We look at fitting
   the models, setting contrasts for the two categorical predictors,
   interaction plots, simple effects analysis, diagnostic plots and
   robust models.
-- `discovr_13_afex`: Factorial designs. Fitting models for two-way
+
+`discovr_13_afex`:  
+Factorial designs. Fitting models for two-way
   factorial designs (independent measures) using the `afex` package.
   This tutorial takes an ANOVA approach to factorical designs. We look
   at fitting the models, interaction plots, simple effects analysis,
   diagnostic plots, partial omega-squared and robust models.
-- `discovr_14`: Multilevel models. This tutorial looks at fitting
+
+`discovr_14`:  
+Multilevel models. This tutorial looks at fitting
   multilevel models using the `glmmTMB` package (all code will also work
   with `lme4`). It begins with an optional section on checking and
   coding categorical variables before moving on to show you how to fit
   and interpret a multilevel model. We also look briefly at the `purrr`
   package.
-- `discovr_15`: Repeated measures designs. Fitting models for one- and
+
+`discovr_15`:  
+Repeated measures designs. Fitting models for one
+and
   two-way repeated measures designs using the `afex` package. This
   tutorial builds on previous ones to show how models can be fit with
   one or two categorical predictors when these variables have been
@@ -168,7 +200,9 @@ starting the interactive tutorials.
   setting contrasts for the categorical predictors, obtaining estimated
   marginal means, interaction plots, simple effects analysis, diagnostic
   plots and robust models.
-- `discovr_15_growth`: Modelling change over time. Growth models using
+
+`discovr_15_growth`:  
+Modelling change over time. Growth models using
   multilevel modelling and the `glmmTMB` package. (All code will also
   work with `lme4`.) First we explore growth over time by building up a
   model to include a random intercept and slope for time. We then model
@@ -176,7 +210,9 @@ starting the interactive tutorials.
   polynomials. We then extend the model to an example based on a
   clinical trial in which a fixed effect of an intervention moderates
   change over time.
-- `discovr_15_mlm`: Repeated measures designs. Fitting models for one-
+
+`discovr_15_mlm`:  
+Repeated measures designs. Fitting models for one-
   and two-way repeated measures designs using a multilevel model
   framework using `glmmTMB`. (All code will also work with `lme4`.) The
   examples match `discovr_15` but the modelling approach differs. This
@@ -184,28 +220,40 @@ starting the interactive tutorials.
   one or two categorical predictors when these variables have been
   manipulated within the same entities. We look at fitting the models,
   setting contrasts for the categorical predictors and diagnostic plots.
-- `discovr_16`: Mixed designs. Fitting models for mixed designs using
+
+`discovr_16`:  
+Mixed designs. Fitting models for mixed designs using
   the `afex` package. This tutorial builds on previous ones to show how
   models can be fit with one or two categorical predictors when at least
   one of these variables has been manipulated within the same entities
   and at least one other has been manipulated using different entities.
   We look at fitting the models, setting contrasts for the categorical
   predictors, obtaining estimated marginal means, and interaction plots.
-- `discovr_17`: Exploratory factor analysis (EFA). This tutorial looks
+
+`discovr_17`:  
+Exploratory factor analysis (EFA). This tutorial looks
   at using exploratory factor analysis in the context of questionnaire
   design. It covers factor analysis, parallel analysis and reliability
   analysis using MacDonald’s Omega.”.
-- `discovr_18`: Categorical variables. Entering categorical data,
+
+`discovr_18`:  
+Categorical variables. Entering categorical data,
   contingency tables, associations between categorical variables, the
   chi-square test, standardized residuals, Fisher’s exact test.
-- `discovr_19`: Categorical outcomes (logistic regression). This
+
+`discovr_19`:  
+Categorical outcomes (logistic regression). This
   tutorial builds on previous ones to show how the general linear model
   model extends to situations where you want to predict a binary outcome
   (logistic regression). We look at fitting the models and interpreting
   the odds ratio.
-- `discovr_19_xmas`: Christmas edition of `discovr_19` to match the
+
+`discovr_19_xmas`:  
+Christmas edition of `discovr_19` to match the
   lecture I give <https://youtu.be/yniFrp8vQLQ?si=DaUVAmAL6sZQ2tkT>.
-- `discovr_bayes`: Bayesian taster tutorial. This tutorial offers a
+
+`discovr_bayes`:  
+Bayesian taster tutorial. This tutorial offers a
   taster of Bayesian statistics by showing how to estimate models from
   other tutorials within a Bayesian framework using `rstanarm`. We also
   look at Bayes factors. The tutorial includes five examples of linear
@@ -386,7 +434,7 @@ ggplot(classic_era, aes(x = energy, y = valence, color = album_name)) +
   theme_minimal()
 ```
 
-<img src="man/figures/README-unnamed-chunk-9-1.png" alt="" width="100%" />
+<img src="man/figures/README-unnamed-chunk-10-1.png" alt="" width="100%" />
 
 Similarly to apply the Powerslave palette to the fill of objects in a
 ggplot add `scale_fill_power()` as a layer:
@@ -399,7 +447,7 @@ ggplot(classic_era, aes(x = album_name, y = valence, fill = album_name)) +
   theme_minimal()
 ```
 
-<img src="man/figures/README-unnamed-chunk-10-1.png" alt="" width="100%" />
+<img src="man/figures/README-unnamed-chunk-11-1.png" alt="" width="100%" />
 
 ## Datasets
 
